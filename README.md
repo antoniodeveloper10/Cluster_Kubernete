@@ -45,7 +45,12 @@ Suba o serviço da API
 kubectl apply -f api/service.yaml
 ```
 
-**(opcional)** caso queira acessar a API pelo seu computador execute o **port-forward**
+Para acessar a API pelo seu computador execute o **port-forward**
+```sh
+kubectl port-forward service/api-service  8000:8000
+```
+
+na barra do navegador digite http://127.0.0.1:8000/
 ```sh
 kubectl port-forward service/api-service  8000:8000
 ```
