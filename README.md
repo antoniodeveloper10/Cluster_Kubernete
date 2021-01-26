@@ -50,8 +50,8 @@ Para acessar a API pelo seu computador execute o **port-forward**
 kubectl port-forward service/api-service  8000:8000
 ```
 
-na barra do navegador digite http://127.0.0.1:8000/
+na barra do navegador 
 ```sh
-kubectl port-forward service/api-service  8000:8000
+digite http://127.0.0.1:8000/
 ```
 
