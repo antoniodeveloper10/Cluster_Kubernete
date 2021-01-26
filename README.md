@@ -56,7 +56,7 @@ Suba o serviço da API
 kubectl apply -f api/service.yaml
 ```
 
-Para acessar a API pelo seu computador execute o **port-forward**
+Permitir acesso a API pelo seu computador execute o **port-forward**
 ```sh
 kubectl port-forward service/api-service  8000:8000
 ```
@@ -69,5 +69,5 @@ Para acessar o painel de Admin da API
 ```sh
 digite http://127.0.0.1:8000/admin
 ```
-E entre com os dados de usuário setados no deplyment.yaml da api
+**E entre com os dados de usuário setados no deployment.yaml da api**
 
