@@ -1,4 +1,4 @@
-# Cluster_Kubernte
+# Cluster_Kubernete
 Projeto em KIND contendo resiliência e escalabilidade de um cluster Kubernete integrando uma api e uma base PostgreSQL 
 
 ## Requisitos
