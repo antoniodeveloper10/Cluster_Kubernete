@@ -24,7 +24,7 @@ edite  suas variáveis de ambiente conforme suas credenciais e salve o arquivo. 
 
 
 
-no terminal da sua IDE execute estes comandos.
+No terminal da sua IDE execute estes comandos.
 
 Em **nome_do_seu_cluster** substitua pelo nome que desejar:
 ```sh
