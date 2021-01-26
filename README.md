@@ -1,5 +1,5 @@
 # Cluster_Kubernete
-Projeto em KIND contendo resiliência e escalabilidade de um cluster Kubernete integrando uma api e uma base PostgreSQL 
+Projeto em KIND contendo resiliência e escalabilidade de um cluster Kubernete e orquestrando uma imagem de uma api criada em Django REST Framework e uma base contendo a imagem do PostgreSQL 
 
 ## Requisitos
 
