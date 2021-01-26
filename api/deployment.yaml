@@ -18,8 +18,8 @@ spec:
         - containerPort: 8000
         env:
           - name:  NOMEUSER
-            value: antonio
+            value: seunome
           - name: EMAILUSER
-            value: antonio@gmail.com
+            value: seu@email.com
           - name: PWDUSER
-            value: antonio
+            value: suasenha
