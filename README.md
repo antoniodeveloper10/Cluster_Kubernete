@@ -15,12 +15,12 @@ more about various [installation options](https://www.rabbitmq.com/download.html
 
 Abra seu terminal e execute estes comandos.
 
-Em nome_do_seu_cluster substitua pelo nome que desejar:
+Em **nome_do_seu_cluster** substitua pelo nome que desejar:
 ```sh
 kind create cluster --name=nome_do_seu_cluster
 ```
 
-Suba o deploymennt da base 
+Suba o deployment da base 
 ```sh
 kubectl apply -f base/deplyment.yaml
 ```
@@ -30,7 +30,7 @@ Suba o Serviço da base
 kubectl apply -f base/service.yaml
 ```
 
-(opcional) caso queira acessar a base pelo seu computador execute o port-forward
+**(opcional)** caso queira acessar a base pelo seu computador execute o **port-forward**
 ```sh
 kubectl port-forward service/api-service  5432:5432
 ```
