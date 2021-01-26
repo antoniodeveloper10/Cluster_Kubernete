@@ -25,14 +25,28 @@ Suba o deployment da base
 kubectl apply -f base/deplyment.yaml
 ```
 
-Suba o Serviço da base 
+Suba o serviço da base 
 ```sh
 kubectl apply -f base/service.yaml
 ```
 
 **(opcional)** caso queira acessar a base pelo seu computador execute o **port-forward**
 ```sh
-kubectl port-forward service/api-service  5432:5432
+kubectl port-forward service/db  5432:5432
 ```
 
+Suba o deployment da API 
+```sh
+kubectl apply -f api/deplyment.yaml
+```
+
+Suba o serviço da API 
+```sh
+kubectl apply -f api/service.yaml
+```
+
+**(opcional)** caso queira acessar a API pelo seu computador execute o **port-forward**
+```sh
+kubectl port-forward service/api-service  8000:8000
+```
 
