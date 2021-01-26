@@ -20,14 +20,19 @@ Em nome_do_seu_cluster substitua pelo nome que desejar:
 kind create cluster --name=nome_do_seu_cluster
 ```
 
-Second Tab:
+Suba o deploymennt da base 
 ```sh
-$ gulp watch
+kubectl apply -f base/deplyment.yaml
 ```
 
-(optional) Third:
+Suba o Serviço da base 
 ```sh
-$ karma test
+kubectl apply -f base/service.yaml
+```
+
+(opcional) caso queira acessar a base pelo seu computador execute o port-forward
+```sh
+kubectl port-forward service/api-service  5432:5432
 ```
 
 
