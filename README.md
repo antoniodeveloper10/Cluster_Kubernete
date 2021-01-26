@@ -9,17 +9,17 @@ Projeto em KIND contendo resiliência e escalabilidade de um cluster Kubernete i
  
  
 ### Criação
-com o projeto aberto, abra o deployemt.yam que esta no diretorio base
-e edite as variaves de ambiente comforme suas credenciais de acesso. elas permitiram aceeso ao painel admionistrativo da API
-'''
+No projeto abra o deployment.yam que esta na pasta api/
+e edite suas variáveis de ambiente conforme suas credenciais.Estas informações permitiram acesso ao painel administrativo da API
+```
         env:
           - name:  NOMEUSER
             value: seunome
           - name: EMAILUSER
             value: seu@email.com
           - name: PWDUSER
-            value: suasenha
-'''
+            value: suasenha 
+```
 
 
 
@@ -61,7 +61,7 @@ Para acessar a API pelo seu computador execute o **port-forward**
 kubectl port-forward service/api-service  8000:8000
 ```
 
-Para acessar a API  barra do navegador 
+Para acessar a API na barra do navegador 
 ```sh
 digite http://127.0.0.1:8000/
 ```
