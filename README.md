@@ -1,5 +1,5 @@
 # Cluster_Kubernte
-Projeto em KIND de um cluster Kubernete integrando uma api e uma base Postgres esta forma permitindo resiliência e escalabilidade
+Projeto em KIND contendo resiliência e escalabilidade de um cluster Kubernete integrando uma api e uma base PostgreSQL 
 
 ## Requisitos
 
@@ -8,9 +8,9 @@ Projeto em KIND de um cluster Kubernete integrando uma api e uma base Postgres e
  * [Imagem API](https://hub.docker.com/repository/docker/developer10/api-futiuber) 
  
  
-### Development
-
-Abra seu terminal e execute estes comandos.
+### Criação
+Faça a copia e abra o projeto
+no terminal da sua IDE execute estes comandos.
 
 Em **nome_do_seu_cluster** substitua pelo nome que desejar:
 ```sh
