@@ -9,8 +9,8 @@ Projeto em KIND contendo resiliência e escalabilidade de um cluster Kubernete e
  
  
 ### Criação
-No projeto abra o deployment.yam que esta na pasta api/
-edite  suas variáveis de ambiente conforme suas credenciais e salve o arquivo. Estas informações permitiram acesso ao painel administrativo da API
+Depois de instalado o Kind va no projeto e abra o deployment.yam que esta na pasta api/
+edite suas variáveis de ambiente conforme suas credenciais e salve o arquivo. Estas informações permitiram acesso ao painel administrativo da API
 ```
         env:
           - name:  NOMEUSER
