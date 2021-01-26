@@ -9,7 +9,21 @@ Projeto em KIND contendo resiliência e escalabilidade de um cluster Kubernete i
  
  
 ### Criação
-Faça a copia e abra o projeto
+com o projeto aberto, abra o deployemt.yam que esta no diretorio base
+e edite as variaves de ambiente comforme suas credenciais de acesso. elas permitiram aceeso ao painel admionistrativo da API
+'''
+        env:
+          - name:  NOMEUSER
+            value: seunome
+          - name: EMAILUSER
+            value: seu@email.com
+          - name: PWDUSER
+            value: suasenha
+'''
+
+
+
+
 no terminal da sua IDE execute estes comandos.
 
 Em **nome_do_seu_cluster** substitua pelo nome que desejar:
